@@ -12,8 +12,9 @@ fullscreen = 0
 # Buildozer compiles the Android package on Linux (or WSL2).
 # No broad storage permission is required: match JSON stays in app-private storage.
 android.api = 35
-android.minapi = 23
+android.minapi = 24
 android.ndk = 27c
+android.ndk_api = 24
 android.archs = arm64-v8a
 android.accept_sdk_license = True
 
